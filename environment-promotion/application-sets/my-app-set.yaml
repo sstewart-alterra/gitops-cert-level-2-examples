@@ -11,7 +11,7 @@ spec:
         - path: environment-promotion/envs/*
   template:
     metadata:
-      name: '{{path.basename}}-{{name}}'
+      name: '{{path.basename}}'
     spec:
       project: default
       syncPolicy:
